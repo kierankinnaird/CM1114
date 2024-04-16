@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image" href="images/vw_gif.gif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <!-- header code -->
+    <header class="header-container">
+      <!-- navigation open button -->
+      <span class="open-btn" style="font-size: 30px; cursor: pointer;color:white;" onclick="openNav()">&#9776; open</span>
+      <!-- Header Text -->
+      <h1 id="header" style="color:white;">VAG Owners Society</h1>
+      <!-- Image -->
+      <img src="images/vw_gif.gif" width="50px" alt="Red car with flashing light gif">
+    </header>
+    <!-- navigation code -->
+    <nav id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="image_gallery.html" id="current">Image Gallery</a>
+      <a href="event_calendar.html">Event Calendar</a>
+      <a href="current_members.html">Current Members</a>
+      <a href="contact_us.html">Contact Us</a>
+      <a href="faq.html">FAQs</a>
+      <a href="modifications.html">Modifications</a>
+    </nav>
+    
+    <main>
+      <!-- image gallery -->
+      <div class="container text-center">
+        <div class="row row-cols-2">  
+          <div class="col">
+            <!-- image 1 -->
+            <img src="images/Audi.png" alt="Audi Logo">
+            <!-- description 1 -->
+            <p>Audi, a paragon of premium automotive excellence, epitomizes sophistication and technological advancement. Famed for its luxury sedans, coupes, SUVs, and high-performance models, Audi captivates discerning drivers with its sleek design and dynamic driving experience. From the sleek A3 to the commanding Q5, Audi's lineup exudes luxury and refinement, setting the standard for automotive elegance.</p>
+          </div>  
+          <div class="col cimage">
+            <!-- image 2 -->
+            <img src="images/Bentley.png" alt="Bentley Logo">
+            <!-- description 2 -->
+            <p>Bentley, synonymous with opulence and craftsmanship, represents the epitome of luxury within the group. With handcrafted, bespoke vehicles like the Continental GT, Flying Spur, and Bentayga SUV, Bentley offers an unparalleled blend of refinement, performance, and exclusivity.</p>
+          </div>  
+          <div class="col cimage">
+            <!-- image 3 -->
+            <img src="images/Cupra.jpeg" alt="Cupra Logo">
+            <!-- description 3 -->
+            <p>CUPRA, an emblem of sportiness and innovation within the Volkswagen Audi Group (VAG), represents a dynamic fusion of performance and design. Emerging as a standalone brand, CUPRA epitomizes a new era of automotive excellence, catering to enthusiasts seeking exhilarating driving experiences and cutting-edge technology.</p>
+          </div>
+          <div class="col cimage">
+            <!-- image 4 -->
+            <img src="images/Lamborghini.png" alt="Lamborghini Logo">
+            <!-- description 4 -->
+            <p>Lamborghini, an iconic marque synonymous with automotive excellence and uncompromising performance, stands as a beacon of passion and innovation within the Volkswagen Audi Group (VAG). With a rich heritage rooted in the pursuit of automotive perfection, Lamborghini represents the epitome of Italian craftsmanship, luxury, and performance.</p><
+          </div>
+          <div class="col cimage">
+            <!-- image 5 -->
+            <img src="images/porsche.png" alt="Porsche Logo">
+            <!-- description 5 -->
+            <p>Porsche, synonymous with high-performance sports cars and luxury vehicles, epitomizes automotive excellence. Revered for its legendary 911 sports car and masterful engineering, Porsche combines luxury with exhilarating driving dynamics, enchanting enthusiasts around the globe. From the iconic 911 to the versatile Cayenne, Porsche's lineup embodies the pinnacle of automotive craftsmanship and performance.</p>
+          </div>
+          <div class="col cimage">
+            <!-- image 6 -->
+            <img src="images/Seat.jpeg" alt="Seat Logo">
+            <!-- description 6 -->
+            <p>SEAT, with its youthful vibrancy and dynamic design, captures the spirit of modern urban living. Specializing in compact cars, hatchbacks, and SUVs, SEAT infuses its lineup with sporty flair and cutting-edge technology. Models such as the Ibiza, Leon, and Arona embody SEAT's commitment to style, performance, and innovation.</p>
+          </div>
+          <div class="col cimage">
+            <!-- image 7 -->
+            <img src="images/Skoda.png" alt="Skoda Logo">
+            <!-- description 7 -->
+            <p>Škoda, a brand celebrated for its practicality and value, offers a diverse range of vehicles renowned for their spacious interiors and robust build quality. With models like the Octavia, Superb, and Kodiaq, Škoda delivers affordable yet dependable transportation solutions, catering to families and commuters alike</p>
+          </div>
+          <div class="col cimage">
+            <!-- image 8 -->
+            <img src="images/Volkswagen.png" alt="Volkswagen Logo">
+            <!-- description 8 -->
+            <p>Volkswagen, the flagship brand renowned for its extensive lineup of vehicles spanning from compact cars to SUVs and luxury models. With a legacy steeped in innovation and reliability, Volkswagen's iconic models like the Golf, Passat, and Tiguan have left an indelible mark on roads worldwide.</p>
+          </div>  
+        </div>
+      </div>
+    </main>
+    <!-- script link -->
+    <script src="scripts/script.js"></script>
+  </body>
+  <!-- footer code -->
+  <footer style="color:white; background-color:black">Copyright Kieran Kinnaird 2024</footer>
+</html>

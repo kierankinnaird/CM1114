@@ -1,0 +1,319 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("AudiType-Bold_4.03.ttf");
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #f50537;
+  width:100%;
+  colour:white;
+}
+
+
+
+#header {
+  margin: 0 auto; /* Centers the header */
+  padding:20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f50537;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.main-image {
+  margin-top: 20px;
+}
+
+.main-image img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.event-table {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+  background-color: #f50537;
+  color:white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:hover{
+  background-color: #f50537;
+  color:white;
+}
+
+.signup-container {
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-container h2 {
+    color: #f50537;
+}
+
+.signup-container .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container select,
+.signup-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container textarea {
+    resize: vertical;
+}
+
+.signup-container input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container button {
+    background-color: #f50537;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #d1042c;
+}
+
+
+main{
+  margin-top:30px;
+}
+
+.c-item{
+  height:400px;
+}
+
+.c-img{
+  height:100%;
+  object-fit:contain;
+}
+#car-gallery-index{
+  background-color:black;
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+#home1{
+  padding-top:30px;
+}
+
+#home1:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidebyside{
+  float:left;
+  width:50%;
+  padding:10px;
+}
+
+figure{
+  align-items:center;
+  justify-content: center;
+  display:flex;
+}
+
+#right{
+  float:left;
+  background-color:#f50537;
+  width:50%;
+}
+
+#current{
+  color: #f50537;
+}
+
+.prof{
+  background-color: #f50537;
+  border-radius: 10px;
+  margin:10px;
+}
+
+.login-panel {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cheight{
+  height:500px;
+}
+
+.col1{
+  background-color:#f50537; 
+  border:6px solid white;
+  padding:5px;
+}
+
+.introtext{
+  margin:30px;
+}
+
+.news_container{
+  border:2px solid black;
+}
+
+#container,.formevents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+

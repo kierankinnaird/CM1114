@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Calendar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image" href="images/vw_gif.gif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- header code -->
+    <header class="header-container">
+      <!-- nav open button -->
+      <span class="open-btn" style="font-size: 30px; cursor: pointer;color:white;" onclick="openNav()">&#9776; open</span>
+      <!-- header text -->
+      <h1 id="header" style="color:white;">VAG Owners Society</h1>
+      <!-- logo gif -->
+      <img src="images/vw_gif.gif" width="50px" alt="red car with flashing lights gif">
+    </header>
+    <!-- nav code -->
+    <nav id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="image_gallery.html">Image Gallery</a>
+      <a href="event_calendar.html" id="current">Event Calendar</a>
+      <a href="current_members.html">Current Members</a>
+      <a href="contact_us.html">Contact Us</a>
+      <a href="faq.html">FAQs</a>
+      <a href="modifications.html">Modifications</a>
+    </nav>
+    <div class="introText">
+      <!-- intro text -->
+      <h3>Welcome to our Event Calendar Page, where we bring you the latest updates on all things automotive! Our calendar features a diverse range of events tailored to car enthusiasts, drivers, and aficionados alike. From informative car maintenance workshops to thrilling car shows showcasing the latest trends and innovations in automotive design, our calendar has something for everyone. Additionally, we offer opportunities for car test drives, allowing you to experience the thrill of driving firsthand and explore the latest models from leading manufacturers. Whether you're looking to learn essential maintenance tips, admire stunning automobiles, or test drive your dream car, our event calendar has you covered. Join us as we navigate the exciting world of automotive events and discover new experiences on the road ahead!</h3>
+    </div>
+    <!-- event table code -->
+    <div class="event-table">
+      <table>
+        <thead>
+          <tr>
+            <!-- top row of table -->
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- week 1 schedule -->
+            <th>W1</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>   
+          <tr>
+            <!-- week 2 schedule -->
+            <th>W2</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 3 schedule -->
+            <th>W3</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 4 schedule -->
+            <th>W4</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 5 schedule -->
+            <th>W5</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 6 schedule -->
+            <th>W6</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 7 schedule -->
+            <th>W7</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 8 schedule -->
+            <th>W8</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <!-- week 9 schedule -->
+            <th>W9</th>
+            <td>Car Maintenance Workshop</td>
+            <td></td>
+            <td>Car Show</td>
+            <td></td>
+            <td>Test Drive Event</td>
+            <td></td>
+            <td></td>
+          </tr>    
+          <tr>
+            <!-- week 10 schedule -->
+            <th>W10</th>
+            <td colspan="7">Society on Break</td>
+          </tr>
+          <tr>
+            <!-- week 11 schedule -->
+            <th>W11</th>
+            <td colspan="7">Society on Break</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- submit event section -->
+    <div class="container overflow-hidden text-center news_container">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3">
+            <p>Want to recommend an event? Tell us!</p>
+          </div>
+        </div>
+        <div class="col"  id="container">
+          <div class="p-3">
+            <form name="events">
+                <label for="event_title">Event Title:</label>
+                <input type="text" id="event_title" name="event_title" placeholder="Enter event title">
+                <label for="event_date">Event Date:</label>
+                <input type="date" id="event_date" name="event_date">
+                <button type="button" onclick="submitEvent()">Submit Event</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- script link -->
+    <script src="scripts/script.js"></script>
+  </body>
+  <!-- footer code -->
+  <footer style="color:white; background-color:black">Copyright Kieran Kinnaird 2024</footer>
+</html>
